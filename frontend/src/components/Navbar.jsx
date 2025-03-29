@@ -10,10 +10,10 @@ const Navbar = () => {
   return (
     <nav className="w-full bg-[#1B4242] shadow-md py-4 px-6 flex justify-between items-center text-white">
       {/* Logo */}
-      <div className="flex items-center gap-2">
-        <img src={logo} alt="Topmate" className="w-10" />
-        <h1 className="text-2xl font-bold">GuideCircle</h1>
-      </div>
+      <Link to="/" className="flex items-center gap-2">
+  <img src={logo} alt="Topmate" className="w-10 cursor-pointer" />
+  <h1 className="text-2xl font-bold cursor-pointer">GuideCircle</h1>
+</Link>
 
       {/* Navigation Links */}
       <div className="flex gap-6 items-center">
